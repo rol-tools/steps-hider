@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  padding: 0px 20px 10px 20px;
+  width: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  color: #353535;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Steps Hider for ROL",
+  "description": "Challenge yourself by hiding the steps in guided exercises featured in the red hat learning courses.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["https://rol.redhat.com/*"],
+      "css": ["content-style.css"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "icons": {
+    "16": "./icons/icon16.png",
+    "32": "./icons/icon32.png",
+    "48": "./icons/icon48.png",
+    "128": "./icons/icon128.png"
+  }
+}

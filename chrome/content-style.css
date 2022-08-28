@@ -1,0 +1,15 @@
+.btn-black {
+  color: #fff;
+  background-color: #181818;
+  border-color: #000;
+}
+
+.btn-black:hover,
+.btn-black:focus {
+  color: #f4f4f4 !important;
+}
+
+.disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
